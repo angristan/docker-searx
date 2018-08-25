@@ -6,7 +6,7 @@
 
 Based on [wonderfall/searx](https://github.com/Wonderfall/dockerfiles/tree/master/searx).
 
-This image is available on the [Docker Hub](https://hub.docker.com/r/angristan/searx/).
+This image is automatically built by [Drone](https://drone.angristan.xyz/angristan/docker-searx) and pushed to the [Docker Hub](https://hub.docker.com/r/angristan/searx/).
 
 ## What is searx?
 
@@ -40,7 +40,7 @@ docker run -d \
   -e BASE_URL=https://searx.domain.tld \
   -e UID=4242 \
   -e GID=4242 \
-  angristan/searx:0.14.0
+  angristan/searx:0.14
 ```
 
 A `docker-compose.yml` example:
@@ -51,7 +51,7 @@ version: '2.3'
 services:
   searx:
     container_name: searx
-    image: angristan/searx:0.14.0
+    image: angristan/searx:0.14
     restart: always
     ports:
       - "80:8888"
