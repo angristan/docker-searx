@@ -6,7 +6,9 @@
 
 Based on [wonderfall/searx](https://github.com/Wonderfall/dockerfiles/tree/master/searx).
 
-This image is automatically built by [Drone](https://drone.angristan.xyz/angristan/docker-searx) and pushed to the [Docker Hub](https://hub.docker.com/r/angristan/searx/).
+This image is automatically built by [GitLab CI](https://gitlab.com/angristan/docker-searx/pipelines) and pushed to the [Docker Hub](https://hub.docker.com/r/angristan/searx/).
+
+Besides manual updates, the images are automatically rebuilt every week to make sure all softwares in the images are up-to-date.
 
 ## What is searx?
 
