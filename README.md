@@ -23,7 +23,7 @@ Searx is an open-source, privacy-respecting, hackable metasearch engine written 
 
 ## Build-time variables
 
-- **`SEARX_VER`**: Searx version (`0.14.0`)
+- **`SEARX_VER`**: Searx version (`0.15.0`)
 
 ## Environment variables
 
@@ -42,7 +42,7 @@ docker run -d \
   -e BASE_URL=https://searx.domain.tld \
   -e UID=4242 \
   -e GID=4242 \
-  angristan/searx:0.14
+  angristan/searx:0.15
 ```
 
 A `docker-compose.yml` example:
@@ -53,7 +53,7 @@ version: '2.3'
 services:
   searx:
     container_name: searx
-    image: angristan/searx:0.14
+    image: angristan/searx:0.15
     restart: always
     ports:
       - "80:8888"

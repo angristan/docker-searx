@@ -3,8 +3,8 @@ image: docker:stable
 variables:
   LATEST_VER: angristan/searx:latest
   MAJOR_VER: angristan/searx:0
-  MINOR_VER: angristan/searx:0.14
-  PATCH_VER: angristan/searx:0.14.0
+  MINOR_VER: angristan/searx:0.15
+  PATCH_VER: angristan/searx:0.15.0
 
 stages:
   - Build image

@@ -3,7 +3,7 @@ FROM alpine:3.8
 LABEL maintainer="Angristan https://github.com/Angristan/dockerfiles"
 LABEL source="https://github.com/Angristan/dockerfiles/tree/master/searx"
 
-ARG SEARX_VER=0.14.0
+ARG SEARX_VER=0.15.0
 
 ENV UID=991 GID=991 \
     BASE_URL=False \
